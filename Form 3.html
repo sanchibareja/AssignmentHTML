@@ -1,0 +1,62 @@
+<html>
+    <body>
+    <div style="display: flex;">
+        <div><img src="./doctor.png" alt="No img found." width="600px" height="400px"></div>
+        <div>
+            <form action="#Program" method="post">
+                <table>
+                    <tr>
+                        <td COLSPAN="3"><center><b>DOCTOR APPOINTMENT FORM</b></center></td>
+                    </tr>
+                    <tr><td colspan="3"><hr color="red"></td></tr>
+                    <tr>
+                        <td><label for="date">Appointment<br/>Date</label></td>
+                        <td><input type="date" name="date" id="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="time">Appointment<br/>Time</label></td>
+                        <td><input type="time" name="time" id="time"></td>                       
+                    </tr>
+                    <tr>
+                        <td><label for="name">Name</label></td>
+                        <td><input type="text" name="name" id="name" placeholder="First"></td>
+                        <td><input type="text" name="name" id="name" placeholder="Last"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender</label></td>
+                        <td><input type="radio" value="Male" name="gender" id="gender">Male
+                            <input type="radio" value="Female" name="gender" id="gender">Female                       
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="telephone">Telephone</label></td>
+                        <td><input type="number" name="telephone" id="telephone" placeholder="xxxx"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="address">Address</label></td>
+                        <td><input type="text" name="address" id="address" placeholder="State"></td>
+                        <td><input type="text" name="address" id="address" placeholder="City"></td>
+                    </tr>
+                    <tr>
+                        <td>Your Query</td>
+                        <td colspan="2"><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Appointment Type</td>
+                        <td colspan="2">Select which appointment type(s) you require.<br/>
+                                       <input type="checkbox">Cervix Checkup<br/>
+                                       <input type="checkbox">Heart Checkup<br/>
+                                       <input type="checkbox">Eye Checkup<br/>
+                                       <input type="checkbox">Hearing Test<br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Send"></td>
+                    </tr>
+                </table>        
+            </form>
+        </div>
+    </div>
+    </body>
+</html>
